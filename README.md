@@ -29,6 +29,9 @@ sbt package
 	-rw-rw-r-- 1 xxx xxx 1819  5月 16 13:58 helloworld_2.12-0.0.1.jar
 
 
+启动 spark
+$ ./sbin/start-master.sh
+
 
 
 
