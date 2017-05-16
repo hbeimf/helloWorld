@@ -17,8 +17,9 @@ run demo
 
 
 sbt package
+
 	$ sbt package 
-	ll ./target/scala-2.12/
+	$ ll ./target/scala-2.12/
 	
 	print like this
 	/helloWorld$ ll ./target/scala-2.12/
