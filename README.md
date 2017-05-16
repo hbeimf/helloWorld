@@ -30,7 +30,8 @@ sbt package
 
 
 启动 spark
-$ ./sbin/start-master.sh
+
+	$ ./sbin/start-master.sh
 
 
 
