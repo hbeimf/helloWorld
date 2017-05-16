@@ -13,11 +13,14 @@ scalaVersion := "2.12.2"   // 使用的Scala版本号
 
 // 或者
 
-// libraryDependencies ++= Seq(
-//                            "ch.qos.logback" % "logback-core" % "1.0.0",
-//                            "ch.qos.logback" % "logback-classic" % "1.0.0",
-//                            ...
-//                            )
+libraryDependencies ++= Seq(
+                        "org.apache.spark" % "spark-core_2.10" % "2.1.1",
+                        "org.apache.spark" % "spark-streaming_2.10" % "2.1.1"
+
+                        // "org.apache.spark" % "park-sql_2.10" % "2.1.1"
+                        )
+
+
 
 // 添加测试代码编译或者运行期间使用的依赖
 // libraryDependencies ++= Seq("org.scalatest" %% "scalatest" % "1.8" % "test")
