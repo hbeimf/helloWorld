@@ -6,6 +6,12 @@ http://mvnrepository.com/
 
 来查找你要添加类库的groupId/artifactId/version
 
+运行demo
+
+	$ sbt run
+
+
+
 
 
 
