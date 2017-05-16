@@ -14,8 +14,8 @@ scalaVersion := "2.12.2"   // 使用的Scala版本号
 // 或者
 
 libraryDependencies ++= Seq(
-                        "org.apache.spark" % "spark-core_2.10" % "2.1.1",
-                        "org.apache.spark" % "spark-streaming_2.10" % "2.1.1"
+                        "org.apache.spark" % "spark-core_2.10" % "2.1.1"
+                        //"org.apache.spark" % "spark-streaming_2.10" % "2.1.1"
 
                         // "org.apache.spark" % "park-sql_2.10" % "2.1.1"
                         )
